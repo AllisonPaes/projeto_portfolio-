@@ -367,3 +367,158 @@ li a:hover {
         margin-top: 2rem;
     }
 }
+#content-body {
+  display: flex;
+  background-color: #2d2e32;
+  align-items: flex-start;
+  height: 90vh;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px 0 0 100px;
+  margin-bottom: 10vh;
+  max-height: 100vh;
+}
+
+.developer-intro {
+  display: flex;
+  align-items: center;
+}
+
+.developer-intro p {
+  padding: 5px 10px;
+  margin: 0 20px 0 0;
+  background-color: #64f4ac;
+  color: #2d2e32;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 2.5px;
+  align-items: center;
+  text-align: center;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.developer-intro p:hover {
+  font-weight: 900;
+}
+
+.body-title h1 {
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -1.5px;
+  padding: 35px 0 0 0;
+}
+
+.body-title p {
+  font-size: 12px;
+  padding: 20px 0;
+  color: #cacaca;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.body-title a {
+  font-size: 16px;
+  color: #64f4ac;
+  font-weight: 600;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+.body-tail {
+  display: flex;
+  align-items: start;
+  padding: 100px 0 0 0;
+}
+
+.body-tail p {
+  color: #cacaca;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 40px 0 5px;
+}
+
+.body-part-2 {
+  position: relative;
+}
+.frontend-work,
+.backend-work {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.frontend-work h2,
+.backend-work h2 {
+    color: #f9532d;
+}
+
+.work-container {
+    display: flex;
+    justify-content: space-around; /* Alinha os itens com espaçamento uniforme */
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte, se necessário */
+}
+
+.work-item {
+    flex: 1;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.work-item:hover {
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse sobre um item */
+}
+
+.work-item img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.work-item h3 {
+    margin-top: 10px;
+}
+
+.work-item p {
+    margin-top: 10px;
+    color: #555;
+}
+
+.inbox {
+    margin-top: 40px;
+    text-align: center; /* Centraliza o conteúdo no meio da página */
+}
+
+.inbox form {
+    max-width: 400px; /* Defina a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário dentro da seção Inbox */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.inbox form label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.inbox form input,
+.inbox form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.inbox form button {
+    background-color: #f9532d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

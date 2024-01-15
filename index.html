@@ -27,7 +27,7 @@
                 <li><a href="#"  class="active" style="--navAni:1">Home</a></li>
                 <li><a href="#" style="--navAni:2">About</a></li>
                 <li><a href="#" style="--navAni:3">Skills</a></li>
-                <li><a href="#" style="--navAni:4">Portfolio</a></li>
+                <li><a href="#" style="--navAni:4">Projetoshttps://github.com/AllisonPaes</a></li>
                 <li><a href="#" style="--navAni:5">Contato</a></li>
             </ul>
             <label class="mode">
@@ -48,7 +48,7 @@
                 </span>
             </div>
             <div class="detail">
-                <h3>Olá, Me chamo</h3>
+                <h3>Olá, Eu sou</h3>
                 <h1><span style="color:#f9532d;">Allison</span> Paes</h1> 
                 <p>Sou um desenvolvedor FullStack. Meu principal objetivo é ajudar e satisfazer os clientes,
                     soluções de desenvolvimento FullStack.
@@ -82,5 +82,82 @@
         });
     </script>
 </body>
+<section class="container">
+    <!-- ... (conteúdo existente) ... -->
+
+    <!-- Seção de Trabalhos de Frontend -->
+    <section class="frontend-work">
+        <h2>Projetos de Frontend</h2>
+
+        <div class="work-container">
+            <div class="work-item">
+                <img src="frontend_project_1.png" alt="Projeto Frontend 1">
+                <h3>Projeto Frontend 1</h3>
+                <p>Descrição do projeto de frontend.</p>
+            </div>
+
+            <div class="work-item">
+                <img src="frontend_project_2.png" alt="Projeto Frontend 2">
+                <h3>Projeto Frontend 2</h3>
+                <p>Descrição do segundo projeto de frontend.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Trabalhos de Backend -->
+    <section class="backend-work">
+        <h2>Projetos de Backend</h2>
+
+        <div class="work-container">
+            <div class="work-item">
+                <img src="backend_project_1.png" alt="Projeto Backend 1">
+                <h3>Projeto Backend 1</h3>
+                <p>Descrição do projeto de backend.</p>
+            </div>
+
+            <div class="work-item">
+                <img src="backend_project_2.png" alt="Projeto Backend 2">
+                <h3>Projeto Backend 2</h3>
+                <p>Descrição do segundo projeto de backend.</p>
+            </div>
+        </div>
+    </section>
+</section>
 
 </html>
+<section class="inbox">
+    <div class="inbox-header">
+        <h2>Inbox</h2>
+    </div>
+    <div class="inbox-content">
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="button" onclick="sendEmail()">Enviar Mensagem</button>
+        </form>
+    </div>
+</section>
+
+<script>
+    function sendEmail() {
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+
+        // Aqui você pode usar uma biblioteca ou serviço de e-mail, ou fazer uma requisição para um backend que lida com o envio do e-mail.
+        // Vou mostrar uma mensagem de alerta como exemplo.
+        alert(`Mensagem enviada por ${name} (${email}): ${message}`);
+
+        // Limpar os campos após o envio (opcional)
+        document.getElementById('name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('message').value = '';
+    }
+</script>
