@@ -213,6 +213,15 @@ li a:hover {
     box-shadow: 0 4px 17px rgb(80 80 80 / 31%);
     background: var(--primary-dark);
 }
+
+.Sobremim {
+    container: 10;
+    display: flexbox;
+    text-align: center;
+    
+
+}
+
 .technologies {
     margin-top: 40px;
     text-align: center;
