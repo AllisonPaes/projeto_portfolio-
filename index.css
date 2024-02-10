@@ -215,12 +215,21 @@ li a:hover {
 }
 
 .Sobremim {
-    container: 10;
-    display: flexbox;
+    width: 80%; /* largura do contêiner */
+    margin: 0 auto; /* centralizar o contêiner horizontalmente */
+    padding: 20px; /* espaçamento interno do contêiner */
+    border: 0px solid #ccc; /* borda para visualização do contêiner */
     text-align: center;
-    
-
 }
+
+.Sobremim p {
+    text-align: justify; /* alinhar o texto justificado */
+}
+
+.Sobremim h3 {
+    text-align: center; /* centralizar o título h3 */
+}
+
 
 .technologies {
     margin-top: 40px;
