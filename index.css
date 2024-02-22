@@ -219,11 +219,13 @@ li a:hover {
     margin: 0 auto; /* centralizar o contêiner horizontalmente */
     padding: 20px; /* espaçamento interno do contêiner */
     border: 0px solid #ccc; /* borda para visualização do contêiner */
-    text-align: center;
+    text-align: left;
 }
 
 .Sobremim p {
-    text-align: justify; /* alinhar o texto justificado */
+    margin-right: 64%;
+    text-align: right;
+     /* alinhar o texto justificado */
 }
 
 .Sobremim h3 {
