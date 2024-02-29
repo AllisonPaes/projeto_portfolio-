@@ -215,22 +215,32 @@ li a:hover {
 }
 
 .Sobremim {
+    position: relative; /* torna o posicionamento do texto relativo ao contêiner pai */
     width: 80%; /* largura do contêiner */
-    margin: 1 auto; /* centralizar o contêiner horizontalmente */
+    margin: 0 auto; /* centralizar o contêiner horizontalmente */
     padding: 20px; /* espaçamento interno do contêiner */
     border: 0px solid #ccc; /* borda para visualização do contêiner */
-    text-align: right;
+    text-align: left; /* alinhar o texto à esquerda */
 }
 
 .Sobremim p {
-    margin-right: 64%;
-    text-align: right;
-     /* alinhar o texto justificado */
+    max-width: 600px; /* Defina a largura máxima para o parágrafo */
+    margin: 0; /* remova todas as margens para evitar problemas de layout */
+    text-align: justify; /* alinhar o texto justificado */
+    line-height: 1.5; /* ajuste a altura da linha para melhorar a legibilidade */
+    word-spacing: 0.2em; /* ajuste o espaçamento entre as palavras */
 }
 
+
 .Sobremim h3 {
-    text-align: center; /* centralizar o título h3 */
+    position: absolute; /* posicionamento absoluto para alinhar o título */
+    top: 40px; /* afastar o título 20px do topo do contêiner */
+    left: 50%; /* mover o título para o meio horizontalmente */
+    transform: translateX(-50%); /* ajustar para centralizar o título */
+    margin: 0; /* remova a margem padrão */
+    font-size: 20px; /* ajuste o tamanho da fonte do título */
 }
+
 
 
 .technologies {
