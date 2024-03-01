@@ -224,7 +224,7 @@ li a:hover {
 }
 
 .Sobremim p {
-    max-width: 600px; /* Defina a largura máxima para o parágrafo */
+    max-width: 485px; /* Defina a largura máxima para o parágrafo */
     margin-top:  3%; /* remova todas as margens para evitar problemas de layout */
     text-align: justify; /* alinhar o texto justificado */
     line-height: 1.5; /* ajuste a altura da linha para melhorar a legibilidade */
