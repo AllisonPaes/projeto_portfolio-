@@ -3,7 +3,7 @@ Projeto para meu portfolio de trabalho e projetos em andamento.
 
 
 # Tecnologias utilizadas
-HTML
-CSS
-JavaScript 
+HTML,
+CSS,
+JavaScript e
 Figma
