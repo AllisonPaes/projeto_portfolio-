@@ -214,6 +214,15 @@ li a:hover {
     background: var(--primary-dark);
 }
 
+
+.container2{
+    position: center;
+    width: auto;
+}
+
+
+
+
 .Sobremim {
     position: relative; /* torna o posicionamento do texto relativo ao contêiner pai */
     width: 80%; /* largura do contêiner */
