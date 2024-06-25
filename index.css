@@ -202,15 +202,15 @@ li a:hover {
 .dark-mode .images {
     background: linear-gradient(145deg, #1f252e, #2e3239);
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #1b1f27;
-    border-top: 2px solid var(--primary-color);
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
+    border-top: 3px solid var(--primary-color);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     margin: auto;
     overflow: hidden;
 }
 
 .dark-mode header {
-    box-shadow: 0 4px 17px rgb(80 80 80 / 31%);
+    box-shadow: 0 4px 2px rgb(80 80 80 / 31%);
     background: var(--primary-dark);
 }
 
@@ -225,7 +225,7 @@ li a:hover {
 
 .Sobremim {
     position: relative; /* torna o posicionamento do texto relativo ao contêiner pai */
-    width: 80%; /* largura do contêiner */
+    width: 60%; /* largura do contêiner */
     margin: 0 auto; /* centralizar o contêiner horizontalmente */
     padding: 20px; /* espaçamento interno do contêiner */
     border: 0px solid #ccc; /* borda para visualização do contêiner */
